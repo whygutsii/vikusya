@@ -1,0 +1,46 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+header {
+    text-align: center;
+    font-size: 34px;
+}
+main {
+    font-size: 24px;
+}
+footer {
+    text-align: center;
+    font-size: 15px;
+    height: 80px;
+    margin-top: 250px;
+}
+.submit-button-main {
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 60px;
+    line-height: 30px;
+    padding: 12px 30px;
+    color: #171717;
+    font-family: 'Comfortaa', cursive;
+    background: transparent;
+    cursor: pointer; 
+    border: 0px solid #eeeeee;
+    transition: transform 0.2s ease-out, padding 0.2s ease-out;
+    overflow: hidden;
+}
+.round {
+    width: 12%;
+    border-radius: 100%; /* Радиус скругления */
+    border: 1px solid #171717; /* Параметры рамки */
+}
+.photo-main {
+    text-align: center;
+}
+.pozdravlenie {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+}
